@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <title id="title">Anastasia's Portfolio</title>
+</head>
+<body id="body">
+
+    <nav>
+      <ul id="menu">
+        <li ><a href="index.html">
+            <span class="fa-solid fa-sitemap" aria-hidden="true"></span>
+            Anastasiia
+            </a>
+        </li>
+        <li ><a href="#projects" data-i18n="projects">Projects</a></li>
+        <li ><a href="about.html" data-i18n="about">About</a></li>
+        <li ><a href="#contact" data-i18n="contact">Contacts</a></li>
+        <li><a href="#0" target="_blank">
+            <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">Linkedin</span>
+            </a>
+        </li>
+        <li><a href="https://github.com/panovaanastasiay" target="_blank">
+            <span class="fa-brands fa-github"></span>
+            <span class="sr-only">GitHub</span>
+            </a>
+        </li>
+        <li ><a href="0#" class="button" data-i18n="resume">Resume</a></li>
+        <li><a href="index.html" onclick="changeLanguage('ru')" class="lang_switch">RU</a></li>
+        <li><a href="index.html" onclick="changeLanguage('en')" class="lang_switch">EN</a></li>
+      </ul>
+    </nav>
+    <section id="intro">
+        <p data-i18n="myname"> <span class ="fullname" data-i18n="fullname" >Anastasia Panova</span></p>
+          <h2 data-i18n="welcome_message"></h2>
+            <p data-i18n="welcome_message2"></p> 
+            <!-- <p data-i18n="work"> <a href="0#" data-i18n="company">XYZ</a></p> -->
+            
+    </section>
+
+    <div class="gradient"></div>
+    
+    <div id="projects" class="bkg-project">
+      <section id="projects">
+        <h2 data-i18n="projectsIntro"></h2>
+        <article>
+          <div class="text">
+            <h4 data-i18n="projectsLatest"></h4>
+            <h3 ><a href="#" onclick="window.open('https://panovaanastasiay.github.io/JS-cinema-project/')">Cinema Project</a></h3>
+        
+            <p class="blackbox" data-i18n="projectCinemaDecr">This Cinema Theater Website is a dynamic and user-friendly platform built using JavaScript. 
+            It caters to both moviegoers and cinema administrators by facilitating easy movie reservations and efficient cinema management. 
+            Additionally, the website features QR code generation for seamless ticket access.
+            </p>
+    
+            <h4 data-i18n="usedTechnologies"></h4>
+            <ul>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>QR</li>
+            </ul>
+          </div>
+          <img src="/img/Cinema.png" alt="Screenshot of the Cinema Theater">
+        </article>
+
+      </section>
+
+      <section id="projects">
+        <article class ="reverse">
+          <div class="text">
+            <h3 ><a href="#" onclick="window.open('https://panovaanastasiay.github.io/Blog-Website/')">Blog Website</a></h3>
+        
+            <p class="blackbox" data-i18n="projectBlogDescr">This Blog Website is designed for article writers, 
+            providing a clean and adaptive platform for publishing and reading content. 
+            Built using HTML and CSS, the website is fully responsive and allows users to sort articles by themes, 
+            enhancing the browsing experience.
+            </p>
+    
+            <h4 data-i18n="usedTechnologies">Technologies used:</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SVG</li>
+            </ul>
+            </div>
+          <img src="/img/blog.png" alt="Screenshot of the Blog website">
+        </article>
+
+      </section>
+    </div>
+
+
+      
+   
+
+
+    <div class="gradient"></div>
+    
+    <div class="bkg-color">
+      <section id="contact">
+        <h3 data-i18n="contactMe">Contact me</h3>
+        <p data-i18n="contactMeDescr">I'm always interested in hearing about new professional opportunities, developping websites or applications.</p>
+        <p><a href="mailto:anastasia.panova.pro@gmail.com" class="button">Email me</a></p>
+      </section>
+    </div>
+
+    <div class="gradient"></div>
+
+    <footer>
+      <h2>Anastasia Panova &bull; Frontend Developer </h2>
+      <ul>
+        <li>
+          <a href="#0" target="_blank">
+            <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">Linkedin</span>
+            </a>
+        </li>
+        <li><a href="https://github.com/panovaanastasiay" target="_blank">
+          <span class="fa-brands fa-github"></span>
+          <span class="sr-only">GitHub</span>
+          </a>
+        </li>
+        <li><a href="mailto:anastasia.panova.pro@gmail.com">
+          <span class="fa-solid fa-envelope"></span>
+          <span class="sr-only">Email</span>
+          </a>
+        </li>
+      </ul>
+      <p><small>&copy; 2024 Anastasia Panova. All rights reserved.</small></p>
+    </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>

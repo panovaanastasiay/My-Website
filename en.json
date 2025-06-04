@@ -1,0 +1,33 @@
+{
+    "name": "Anastasia",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contacts",
+    "resume": "Resume",
+    "myname": "Hi, my name is Anastasiia",
+    "fullname": "Anastasiia Panova",
+    "welcome_message": "I Create Efficient and Responsive Web Interfaces.",
+    "welcome_message2": "I am a developer specializing in HTML, CSS, JavaScript, TypeScript.",
+    "work": "Currently, I'm working at",
+    "company": "XYZ",
+    "projectsIntro": "Projects I am proud of",
+    "projectsLatest": "Latest Project",
+    "projectCinema": "Cinema theater",
+    "projectCinemaDecr": "This Cinema Theater Website is a dynamic and user-friendly platform built using JavaScript. It caters to both moviegoers and cinema administrators by facilitating easy movie reservations and efficient cinema management. Additionally, the website features QR code generation for seamless ticket access.",
+    "usedTechnologies": "Technologies used:",
+    "projectBlog": "Blog",
+    "projectBlogDescr": "This Blog Website is designed for article writers, providing a clean and adaptive platform for publishing and reading content. Built using HTML and CSS, the website is fully responsive and allows users to sort articles by themes, enhancing the browsing experience.",
+    "contactMe": "Contact me", 
+    "contactMeDescr": "I'm always interested in hearing about new professional opportunities, developping websites or applications.",
+    "aboutMe": "About Anastasia Panova",
+    "highlights": "Just the highlights",
+    "highlightsDescr": "Hi there! I'm a passionate frontend developer who recently completed intensive course in frontend development. My expertise lies in creating dynamic and user-friendly websites using HTML, CSS, and JavaScript. I also utilize TypeScript and React to enhance the functionality and interactivity of my projects. I'm dedicated to building responsive and accessible websites that provide an excellent experience for all users. Let's create something amazing together!",
+    "favouriteTech": "My favourite technologies:"
+
+
+
+
+    
+    
+}
+  
